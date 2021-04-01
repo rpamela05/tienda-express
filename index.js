@@ -10,10 +10,10 @@ function c_inicio(req,res){
 }
 
 function c_clientes(req,res){
-    res.send('<h1>CLIENTES</h1><br><h3>Luisa Perez</h3><br><h3>Juan Paredes</h3><br><h3>Nicole Cardenas</h3>')
+    res.send('<h1>CLIENTES</h1><br><h3>Luisa Perez</h3><h3>Juan Paredes</h3><h3>Nicole Cardenas</h3>')
 }
 function c_productos(req,res){
-    res.send('<h1>PRODUCTOS</h1><br><h3>Botas</h3><br><h3>Zapatillas</h3><br><h3>Sandalias</h3>')
+    res.send('<h1>PRODUCTOS</h1><br><h3>Botas</h3><h3>Zapatillas</h3><h3>Sandalias</h3>')
 }
 
 function c_server(req,res){
